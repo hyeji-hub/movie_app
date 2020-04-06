@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hyeji-hub/movie_app/static/css/main.5253fc65.chunk.css",
+    "main.js": "/hyeji-hub/movie_app/static/js/main.175e2fd5.chunk.js",
+    "main.js.map": "/hyeji-hub/movie_app/static/js/main.175e2fd5.chunk.js.map",
+    "runtime-main.js": "/hyeji-hub/movie_app/static/js/runtime-main.983e04dc.js",
+    "runtime-main.js.map": "/hyeji-hub/movie_app/static/js/runtime-main.983e04dc.js.map",
+    "static/js/2.0bcb2fbd.chunk.js": "/hyeji-hub/movie_app/static/js/2.0bcb2fbd.chunk.js",
+    "static/js/2.0bcb2fbd.chunk.js.map": "/hyeji-hub/movie_app/static/js/2.0bcb2fbd.chunk.js.map",
+    "index.html": "/hyeji-hub/movie_app/index.html",
+    "precache-manifest.a35910132542bf401f75e4c696335e61.js": "/hyeji-hub/movie_app/precache-manifest.a35910132542bf401f75e4c696335e61.js",
+    "service-worker.js": "/hyeji-hub/movie_app/service-worker.js",
+    "static/css/main.5253fc65.chunk.css.map": "/hyeji-hub/movie_app/static/css/main.5253fc65.chunk.css.map",
+    "static/js/2.0bcb2fbd.chunk.js.LICENSE.txt": "/hyeji-hub/movie_app/static/js/2.0bcb2fbd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.983e04dc.js",
+    "static/js/2.0bcb2fbd.chunk.js",
+    "static/css/main.5253fc65.chunk.css",
+    "static/js/main.175e2fd5.chunk.js"
+  ]
+}
