@@ -1,38 +1,38 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { ReactDOM } from 'react-dom';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    console.log("hello");
-  }
-  
+    console.log('hello');
+  };
+
   state = {
     count: 0
   };
 
-  Add = () => {
-    this.setState( current => ({ count: current.count + 1 }));
-  }
+  add = () => {
+    this.setState(current => ({ count: current.count + 1}));
+};
 
-  Minus = () => {
-    this.setState({ count: this.state.count - 1});
-  }
-  
+  minus = () => {
+    this.setState(current => ({ count: current.count -1 }));
+  };
+
   componentDidMount() {
-    console.log("Component rendered");
-  }
+    console.log('component render');
+  };
 
   componentDidUpdate() {
-    console.log("I just Update");
-  }
+    console.log('I just update!');
+  };
 
   render() {
     console.log("I'm rendering");
     return <div>
       <h1>The number is {this.state.count}</h1>
-      <button onClick={this.Add}>Add</button>
-      <button onClick={this.Minus}>Minus</button>
+      <button onClick={this.add}>Add</button>
+      <button onClick={this.minus}>Minus</button>
     </div>
   }
 }
